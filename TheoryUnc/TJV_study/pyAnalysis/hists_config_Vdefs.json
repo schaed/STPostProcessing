@@ -1,0 +1,61 @@
+{
+    "cuts": [
+     {"cut": "jj_mass > 800e3", "name": "Incl"}
+ ],
+    "draw": [
+        {
+            "draw": "jj_mass*1e-3",
+            "edges": [800,1000,1500,2000,3500,5000],
+            "name": "jj_mass"
+        },
+        {
+            "draw": "jj_mass*1e-3",
+            "max": 8000.0,
+            "min": 0.0,
+            "name": "jj_mass_fine",
+            "nbins": 16
+        },
+        {
+            "draw": "jj_mass_undress*1e-3",
+            "max": 8000.0,
+            "min": 0.0,
+            "name": "jj_mass_undress_fine",
+            "nbins": 16
+        },
+        {
+            "draw": "V_dressed_pt*1e-3",
+            "max": 1500,
+            "min": 0.0,
+            "name": "V_dressed_pt",
+            "nbins": 30
+        },
+        {
+            "draw": "n_jet25",
+            "max": 9.5,
+            "min": -0.5,
+            "name": "n_jet25",
+            "nbins": 10
+        },
+        {
+            "draw": "jet_pt[0]*1e-3",
+            "max": 500.0,
+            "min": 0.0,
+            "name": "jet1_pt",
+            "nbins": 50
+        },
+        {
+            "draw": "n_jet25_undress",
+            "max": 9.5,
+            "min": -0.5,
+            "name": "n_jet25_undress",
+            "nbins": 10
+        },
+        {
+            "draw": "jet_pt_undress[0]*1e-3",
+            "max": 500.0,
+            "min": 0.0,
+            "name": "jet1_ptund",
+            "nbins": 50
+        }
+    ]
+}

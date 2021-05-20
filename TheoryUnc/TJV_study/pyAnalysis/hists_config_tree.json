@@ -1,0 +1,42 @@
+{
+    "cuts": [
+     {"cut": "(w)* (jj_mass>0)", "name": "Incl"}
+ ],
+    "draw": [
+        {
+            "draw": "jj_mass*1e-3",
+            "max": 10000.0,
+            "min": 1000.0,
+            "name": "jj_mass",
+            "nbins": 50
+        },
+        {
+            "draw": "V_dressed_pt*1e-3",
+            "max": 1000.0,
+            "min": 100.0,
+            "name": "V_dressed_pt",
+            "nbins": 50
+        },
+        {
+            "draw": "jet_pt[0]*1e-3",
+            "max": 5000.0,
+            "min": 0.0,
+            "name": "jet1_pt",
+            "nbins": 50
+        },
+        {
+            "draw": "jet_pt[1]*1e-3",
+            "max": 5000.0,
+            "min": 0.0,
+            "name": "jet2_pt",
+            "nbins": 50
+        },
+        {
+            "draw": "jet_pt[2]*1e-3",
+            "max": 5000.0,
+            "min": 0.0,
+            "name": "jet3_pt",
+            "nbins": 50
+        }
+    ]
+}
